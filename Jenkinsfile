@@ -15,7 +15,7 @@ pipeline {
     stage('Build') {
       steps {
         tool 'maven3'
-        sh 'maven spring-boot:run'
+        sh 'maven3 spring-boot:run'
       }
     }
 
